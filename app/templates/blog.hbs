@@ -1,0 +1,8 @@
+<div class="well col-md-11">
+    {{#each item in controller}}
+        item
+    {{/each}}
+</div>
+<div class="col-md-1">
+    <button type="button" class="btn btn-default" data-toggle="modal" href='#modal-dialog' {{ action 'openModal' 'newentry' model}}>+</button>
+</div>
